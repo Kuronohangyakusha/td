@@ -1,0 +1,35 @@
+.p1{
+    width: 500px;
+    height: 500px;
+    box-shadow: plum palevioletred papayawhip pink;
+    background-color: aliceblue;
+    background-size: contain;
+    animation: 2s infinite alternate;
+    margin: 500px auto;
+    animation: bb 15s ease-in-out infinite both;
+}
+.recepteur{
+    
+   max-width: 1405px; 
+   margin: 1400px auto;
+}
+.p2{
+    width: 100px;
+    height: 00px;
+    padding-top: 75%;
+    box-shadow: plum palevioletred papayawhip pink;
+    background-color: aliceblue;
+    background-size: contain;
+    animation: bb 15s ease-in-out infinite both;
+}
+.p1:hover,.p2:hover{
+    animation-play-state: paused;
+
+}
+@keyframes bb{
+    10%{background-image: url(a6.JPG);}
+    33.33%{background-image: url(a7.JPG);}
+    66.67%{background-image: url(a8.JPG);}
+    100%{background-image: url(a9.JPG);}
+}
+

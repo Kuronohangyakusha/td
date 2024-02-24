@@ -1,0 +1,35 @@
+.d1{
+    width: 576px;
+    height: 432px;
+    margin: 500px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #ededee;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+}
+.conteneur{
+    max-width: 1006px;
+    margin: 1450px auto;
+
+}
+.d2{
+    width: 100px;
+    height: 0px;
+    padding-top: 75%;
+    box-shadow: 0px 0px 10px #777;
+    background-color: #ededee;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+
+}
+.p1:hover,.p2:hover{
+    animation-play-state: paused;
+}
+
+@keyframes fondu{
+    10%{background-image: url(p2.JPG);}
+    33.33%{background-image: url(p3.JPG);}
+    66.67%{background-image: url(p4.JPG);}
+    100%{background-image: url(p5.JPG);}
+
+}

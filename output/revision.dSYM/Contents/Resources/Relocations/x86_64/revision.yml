@@ -1,0 +1,11 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/ndeye/Desktop/tech/output/revision'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _divise, symObjAddr: 0x0, symBinAddr: 0x100003D10, symSize: 0x30 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _divise, symObjAddr: 0x0, symBinAddr: 0x100003D10, symSize: 0x30 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _ecriredivise, symObjAddr: 0x30, symBinAddr: 0x100003D40, symSize: 0x60 }
+  - { offsetInCU: 0xC5, offset: 0xC5, size: 0x8, addend: 0x0, symName: _nbdiv, symObjAddr: 0x90, symBinAddr: 0x100003DA0, symSize: 0x70 }
+  - { offsetInCU: 0x117, offset: 0x117, size: 0x8, addend: 0x0, symName: _premier, symObjAddr: 0x100, symBinAddr: 0x100003E10, symSize: 0x50 }
+  - { offsetInCU: 0x149, offset: 0x149, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x150, symBinAddr: 0x100003E60, symSize: 0xA2 }
+...
